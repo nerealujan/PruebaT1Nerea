@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="500.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.control.Control">
+   <children>
+      <ImageView fitHeight="127.0" fitWidth="518.0" pickOnBounds="true">
+         <image>
+            <Image url="@../view/assets/blueforest.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="500.0" prefWidth="518.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="180.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../view/assets/profilephoto.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="519.0" prefHeight="500.0" prefWidth="237.0" style="-fx-background-color: #05676F;">
+         <children>
+            <JFXTextField focusColor="WHITE" layoutX="34.0" layoutY="34.0" opacity="0.6" promptText="FIRST NAME" styleClass="tf" unFocusColor="WHITE" />
+            <JFXTextField focusColor="#05676f" layoutX="34.0" layoutY="94.0" opacity="0.6" promptText="LAST NAME" styleClass="tf" />
+            <JFXTextField focusColor="#05676f" layoutX="34.0" layoutY="159.0" opacity="0.6" promptText="USERNAME" styleClass="tf" />
+            <JFXTextField focusColor="#05676f" layoutX="34.0" layoutY="219.0" opacity="0.6" promptText="EMAIL" styleClass="tf" />
+            <JFXPasswordField focusColor="#05676f" layoutX="34.0" layoutY="336.0" opacity="0.6" promptText="PASSWORD" styleClass="tf" />
+            <JFXPasswordField focusColor="#05676f" layoutX="34.0" layoutY="392.0" opacity="0.6" promptText="REPEAT PASSWORD" styleClass="tf" />
+            <JFXTextField focusColor="#05676f" layoutX="34.0" layoutY="281.0" opacity="0.6" promptText="PHONE NUMBER" styleClass="tf" />
+            <JFXButton fx:id="bt_getStart" buttonType="RAISED" layoutX="34.0" layoutY="440.0" onAction="#closeStage" prefHeight="31.0" prefWidth="168.0" styleClass="bt_getStart" text="GET STARTED" textFill="#05676f" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

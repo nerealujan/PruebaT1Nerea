@@ -1,0 +1,34 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.bt_get{
+	-fx-background-color: orange;
+}
+
+.bt_get:hover{
+	-fx-background-color: #05676F;
+}
+.anchorPaneProfile{
+	-fx-background-color:  #05676F;
+}
+.profile{
+	
+}
+.bt_get{
+	
+}
+.nombre{
+	
+}
+.program{
+	
+}
+.bt_getStart{
+	-fx-background-radius: 10;
+	-fx-border-width: 2;
+	-fx-background-color: #fff;
+	-fx-text-fill: #05676F
+}
+.tf{
+	-fx-background-color: #fff;
+	
+}
